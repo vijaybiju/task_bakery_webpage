@@ -1,0 +1,642 @@
+/* Basic reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* styling scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fa2a59;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fdecbb;
+    border-radius: 30px;
+
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #4d376d; */
+    background-color: #fa2a59;
+    color: #fdecbb;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+
+}
+
+.logo_img {
+    width: 80px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* background-color: #b9adcf; */
+    background-color: #fdecbb;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fdecbb;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: brown;
+    text-decoration: solid;
+    font-weight: 900;
+}
+
+.search-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+
+}
+
+#searchIcon {
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+#cartIcon {
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+#loveIcon {
+    font-size: 23px;
+    cursor: pointer;
+
+
+}
+
+#searchIcon:hover {
+    color: brown;
+    text-decoration: solid;
+    font-weight: 900;
+}
+
+#cartIcon:hover {
+    color: brown;
+    text-decoration: solid;
+    font-weight: 900;
+}
+
+#loveIcon:hover {
+    color: brown;
+    text-decoration: solid;
+    font-weight: 900;
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+
+}
+
+.img1 {
+    width: 100%;
+    height: 450px;
+    /* Set this to whatever height you find reasonable */
+    object-fit: cover;
+    /* This ensures the image covers the div without distortion */
+}
+
+/* cake section styling */
+#cakes {
+    text-align: center;
+    color: #fa2a59;
+    /* font-style: italic; */
+    margin-top: -10px;
+    padding-top: 20px;
+    /* background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-pink-romantic-wind-wedding-cake-promotion-banner-image_169057.jpg'); */
+    background-image: url('https://us.123rf.com/450wm/metkalova/metkalova2302/metkalova230200198/198958153-donuts-donuts-with-chocolate-marshmallow-and-sugar-sprinkles-on-blue-background-copy-space-colorful.jpg?ver=6');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+#cakes:hover {
+    text-decoration: solid;
+    font-weight: 900;
+
+}
+
+#cakes h3 {
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+#cakes h3:hover {
+    text-decoration: solid;
+    font-weight: 900;
+    color: brown;
+
+
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 images per row */
+    gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+
+}
+
+.grid-item {
+    text-align: center;
+    /* border: 1px solid #eaeaea; */
+    padding: 10px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.grid-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.grid-item p {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.grid-item span {
+    color: #555;
+}
+
+.grid-container .grid-item:hover img {
+    transform: scale(1.05);
+}
+
+
+/* Cookies Section styling */
+#cookies-section {
+    padding: 1rem;
+    text-align: center;
+    background-color: #fdecbb;
+    /* background-image: url('https://img.freepik.com/premium-photo/biscuits-cookies-plate-with-blur-background_882884-1554.jpg'); */
+    background-image: url('https://us.123rf.com/450wm/metkalova/metkalova2302/metkalova230200198/198958153-donuts-donuts-with-chocolate-marshmallow-and-sugar-sprinkles-on-blue-background-copy-space-colorful.jpg?ver=6');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#cookies-section:hover {
+    text-decoration: solid;
+    font-weight: 900;
+}
+
+#cookies-section h3 {
+    font-size: 36px;
+    margin-bottom: 2rem;
+
+    color: #d2691e;
+
+}
+
+#cookies-section h3:hover {
+    color: brown
+}
+
+
+/* Cookies Container */
+.cookies-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cookie-item {
+    background-color: #fdecbb;
+
+    border-radius: 10px;
+    width: 290px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.cookie-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.cookie-item img {
+
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+}
+
+.cookie-item:hover img {
+    transform: scale(1.05);
+
+
+}
+
+.cookie-item p {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    margin-bottom: 0.5rem;
+}
+
+
+.cookie-item span {
+    font-size: 16px;
+    color: #d2691e;
+    font-weight: bold;
+}
+
+
+/* Donuts Section styling*/
+#donuts-section {
+    padding: 1rem;
+    text-align: center;
+    background-image: url('https://us.123rf.com/450wm/metkalova/metkalova2302/metkalova230200198/198958153-donuts-donuts-with-chocolate-marshmallow-and-sugar-sprinkles-on-blue-background-copy-space-colorful.jpg?ver=6');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#donuts-section h3 {
+    font-size: 36px;
+    margin-bottom: 2rem;
+    color: #fa2a59;
+}
+
+#donuts-section h3:hover {
+    text-decoration: solid;
+    font-weight: 900;
+    color: brown;
+}
+
+/* Donuts Container */
+.donuts-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Flip card styling */
+.flip-card {
+    background-color: transparent;
+    width: 290px;
+    height: 340px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.flip-card-front {
+    background-color: #f9a0b5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-front img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.flip-card-front p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Back of the card */
+.flip-card-back {
+    background-color: brown;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotateY(180deg);
+    padding: 20px;
+}
+
+.flip-card-back p {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.flip-card-back span {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Chocolates Section styling */
+#chocolates-section {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f7e7ce;
+    /* background-image: url('https://img.freepik.com/premium-photo/piece-chocolate-with-blurred-light-background_9083-6594.jpg');  */
+    background-image: url('https://us.123rf.com/450wm/metkalova/metkalova2302/metkalova230200198/198958153-donuts-donuts-with-chocolate-marshmallow-and-sugar-sprinkles-on-blue-background-copy-space-colorful.jpg?ver=6');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#chocolates-section h3 {
+    font-size: 36px;
+    margin-bottom: 2rem;
+    color: #d2691e;
+}
+
+#chocolates-section h3:hover {
+    text-decoration: solid;
+    font-weight: 900;
+    color: brown;
+}
+
+/* Chocolates Container */
+.chocolates-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.chocolate-item {
+    background-color: #ffe8d1;
+    border-radius: 12px;
+    width: 290px;
+    padding: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.chocolate-item:hover {
+    transform: scale(1.05);
+    /* Subtle zoom effect */
+    background-color: #fdd7b5;
+    /* Slight color change */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.chocolate-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.chocolate-item:hover img {
+    transform: scale(1.1);
+    /* Image zoom effect */
+}
+
+.chocolate-item p {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #5a3a2f;
+}
+
+.chocolate-item span {
+    font-size: 16px;
+    color: #d2691e;
+    font-weight: bold;
+}
+
+
+/* Reviews Section styling */
+#reviews-section {
+    padding: 1rem;
+    text-align: center;
+    background-color: #fdecbb;
+}
+
+#reviews-section h3 {
+    font-size: 36px;
+    margin-bottom: 2rem;
+    color: #fa2a59;
+}
+
+#reviews-section h3:hover {
+    text-decoration: solid;
+    font-weight: 900;
+    color: brown;
+}
+
+/* Reviews Container */
+.reviews-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Review Item */
+.review-item {
+    background-color: #f4f2ed;
+    border-radius: 10px;
+    width: 300px;
+    padding: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Star Rating */
+.stars {
+    color: #fa2a59;
+    margin-bottom: 1rem;
+}
+
+.stars i {
+    margin-right: 2px;
+    font-size: 20px;
+}
+
+/* Review Text */
+.review-item p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+/* Customer Info */
+.customer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 0.75rem;
+}
+
+.customer-info span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #080707;
+}
+
+/* footer section styling */
+
+#footer {
+    background-color: #fa2a59;
+    color: #fdecbb;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex-basis: 20%;
+    margin-bottom: 1rem;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-column h3:hover {
+    color: brown;
+}
+
+.footer-column p,
+.footer-column li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.payment-icons img {
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #f6e5b1;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #d4af37;
+    width: 50px;
+    height: 50px;
+    animation: rotating 5s;
+
+
+}

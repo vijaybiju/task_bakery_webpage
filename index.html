@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borcelle Cake & Candy</title>
+    <!------- css link----- -->
+    <link rel="stylesheet" href="style.css">
+    <!------ fav icon(a small icon displayed in the browser tab)---- -->
+    <link rel="icon" sizes="256x256" href="images/logo1.webp" type="image/webp">
+    <!-------- box icon link------ -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- --------Google fonts link----------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&family=Reddit+Sans+Condensed:wght@200..900&family=SUSE:wght@100..800&display=swap"
+        rel="stylesheet">
+
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div id="container">
+        <header>
+            <!-- main logo -->
+            <div class="logo"><img class="logo_img" src="images/logo1.webp" alt="no image"></div>
+            <nav>
+                <ul>
+                    <li><a href="#cakes">Cakes</a></li>
+                    <li><a href="#cookies-section">Cookies</a></li>
+                    <li><a href="#donuts-section">Donuts</a></li>
+                    <li><a href="#chocolates-section">Chocolates</a></li>
+                </ul>
+            </nav>
+            <div class="search-cart">
+                <i class='bx bx-search-alt-2' id="searchIcon"></i>
+                <i class='bx bx-cart-add' id="cartIcon"></i>
+                <i class="fa-regular fa-heart" id="loveIcon"></i>
+
+            </div>
+        </header>
+        <!-- main image -->
+        <div class="main-img">
+            <img class="img1" src="https://cakebee.in/cdn/shop/files/1600-530_4_1900x.jpg?v=1719938484" alt="no">
+        </div>
+
+        <!-- cakes section -->
+        <div id="cakes">
+            <h3>CAKES</h3>
+            <div class="grid-container">
+                <div class="grid-item" data-aos="zoom-in-down">
+                    <img src="https://cakebee.in/cdn/shop/files/DSC_0015_Easy-Resize.com_320x.jpg?v=1719937732"
+                        alt="Cake 1">
+                    <p>Nutella Caramel Butterscotch Cake</p>
+                    <span>₹ 1,020</span>
+                </div>
+                <div class="grid-item" data-aos="zoom-in-down">
+                    <img src="https://cakebee.in/cdn/shop/files/RosePistachio-02_600x.jpg?v=1717309835" alt="Cake 2">
+                    <p>Rose Pistachio Cake</p>
+                    <span>₹ 1,020</span>
+                </div>
+                <div class="grid-item" data-aos="zoom-in-down">
+                    <img src="https://cakebee.in/cdn/shop/products/WhiteForestCake_1_600x.jpg?v=1672843956"
+                        alt="Cake 3">
+                    <p>White Forest</p>
+                    <span>₹ 1,020</span>
+                </div>
+                <div class="grid-item" data-aos="zoom-in-down">
+                    <img src="https://cakebee.in/cdn/shop/files/Cake---2_600x.jpg?v=1712248542" alt="Cake 4">
+                    <p>
+                        Mango Biscoff Cake</p>
+                    <span>₹ 1,020</span>
+                </div>
+                <div class="grid-item" data-aos="zoom-in-down">
+                    <img src="https://cakebee.in/cdn/shop/files/DSC06195_f03e535d-dd9e-46aa-9339-a6b82f289a2f_600x.jpg?v=1703588831"
+                        alt="Cake 5">
+                    <p>Classic Lemon Blueberry Cake</p>
+                    <span>₹ 1,020</span>
+                </div>
+                <div class="grid-item" data-aos="zoom-in-down">
+                    <img src="https://cakebee.in/cdn/shop/products/ButterscotchCake01_600x.jpg?v=1672838722"
+                        alt="Cake 6">
+                    <p>Classic Butterscotch</p>
+                    <span>₹ 1,020</span>
+                </div>
+                <div class="grid-item" data-aos="zoom-in-down">
+                    <img src="https://cakebee.in/cdn/shop/products/CaramelDelightCake_1_ddb4a0c3-4465-4b30-8ac9-16c4ada521de_600x.jpg?v=1676552304"
+                        alt="Cake 7">
+                    <p>Caramel Delight</p>
+                    <span>₹ 1,020</span>
+                </div>
+                <div class="grid-item" data-aos="zoom-in-down">
+                    <img src="https://cakebee.in/cdn/shop/files/MangonutellaCheesecake-02_1_600x.jpg?v=1715884496"
+                        alt="Cake 8">
+                    <p>Mango Nutella Cheesecake</p>
+                    <span>₹ 1,020</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookies Section -->
+        <div id="cookies-section">
+            <h3> COOKIES</h3>
+            <div class="cookies-container">
+                <div class="cookie-item">
+                    <img src="https://masabakery.in/cdn/shop/files/2_3_-min.png?v=1707382758"
+                        alt="Chocolate Chip Cookie">
+                    <p>Classic Chocolate Chip Cookie</p>
+                    <span>₹ 400</span>
+                </div>
+                <div class="cookie-item">
+                    <img src="https://masabakery.in/cdn/shop/files/Minicookies-chocolate-chips-min.jpg?v=1690781812"
+                        alt="Oatmeal Raisin Cookie">
+                    <p>Mini cookies - Chocolate Chip</p>
+                    <span>₹ 570</span>
+                </div>
+
+                <div class="cookie-item">
+                    <img src="https://masabakery.in/cdn/shop/files/3Q3A0318_174f5c52-0d85-49a0-9a30-86f6b8074741.jpg?v=1715071284"
+                        alt="Sugar Cookie">
+                    <p>Hazelnut Gourmet Cookie</p>
+                    <span>₹ 1060</span>
+                </div>
+                <div class="cookie-item">
+                    <img src="https://www.alsothecrumbsplease.com/wp-content/uploads/2021/02/Pistachio-Cookies-15.jpg"
+                        alt="Macadamia Nut Cookie">
+                    <p>Pistachio Cookies</p>
+                    <span>₹ 900</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Donuts Section -->
+        <div id="donuts-section">
+            <h3>DONUTS</h3>
+            <div class="donuts-container">
+
+
+                <div class="donut-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="https://www.allrecipes.com/thmb/MCd0d7PPJjr44hZNycFnBGrdvvk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/image-44-bc1d78013be943aa9fd89d69defc003f.jpeg"
+                                    alt="Strawberry Donut">
+                                <p>Boston cream donuts</p>
+                                <span>₹ 110</span>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Boston cream donuts</p>
+                                <span>₹ 110</span>
+                                <p>
+                                    Boston cream donuts are yeast donuts filled with custard and topped with chocolate
+                                    frosting, making them the donut equivalent of Boston cream pie.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="donut-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="https://www.allrecipes.com/thmb/9-o9OJZilnT9Fw_6VvxejgqgVRQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/3356160-f852b2a62dee4b8481357159aa53d92f.jpg"
+                                    alt="Chocolate Donut">
+                                <p> Donut Hole</p>
+                                <span>₹ 120</span>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <p> Donut Hole</p>
+                                <span>₹ 120</span>
+                                <p>These bite-sized donut holes, made from leftover dough and often glazed or filled,
+                                    are perfect for brunch or morning meetings.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="donut-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="https://www.allrecipes.com/thmb/AXQDaZpE8kgqieqhFLEDU3Hj3sA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Screen-Shot-2020-07-28-at-8.58.35-AM-8f59a028f2b642d29e2e37fb1026292c.png"
+                                    alt="Cinnamon Donut">
+                                <p>Frosted donuts</p>
+                                <span>₹ 100</span>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Frosted donuts</p>
+                                <span>₹ 100</span>
+                                <p>Frosted donuts, known for their picturesque appearance, can be either cake or
+                                    yeast-based, with cake donuts offering a sturdier base for thick frosting, and
+                                    sprinkles adding a creative touch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="donut-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="https://www.spatuladesserts.com/wp-content/uploads/2022/04/Blueberry-baked-donuts-1.1.jpg"
+                                    alt="Blueberry Donut">
+                                <p>Baked blueberry donuts</p>
+                                <span>₹ 130</span>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Baked blueberry donuts</p>
+                                <span>₹ 130</span>
+                                <p>Baked blueberry donuts are light and fluffy treats infused with fresh blueberries,
+                                    offering a healthier alternative to traditional fried donuts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Chocolates Section -->
+        <div id="chocolates-section">
+            <h3>CHOCOLATES</h3>
+            <div class="chocolates-container">
+                <div class="chocolate-item">
+                    <img src="https://www.godiva.com/dw/image/v2/AAKG_PRD/on/demandware.static/-/Sites-godiva-master-catalog-us/default/dwa342a34c/15214-1.jpg?sw=250&sh=250"
+                        alt="Dark Chocolate Truffle">
+                    <p>Assorted Chocolate Gold </p>
+                    <span>₹ 450</span>
+                </div>
+                <div class="chocolate-item">
+                    <img src="https://www.godiva.com/dw/image/v2/AAKG_PRD/on/demandware.static/-/Sites-godiva-master-catalog-us/default/dwce22cd2c/16022_1.jpg"
+                        alt="Milk Chocolate">
+                    <p>Dark Chocolate Hot Cocoa Canister</p>
+                    <span>₹ 1400</span>
+                </div>
+                <div class="chocolate-item">
+                    <img src="https://www.godiva.com/dw/image/v2/AAKG_PRD/on/demandware.static/-/Sites-godiva-master-catalog-us/default/dw1c4494a0/14233-1.jpg"
+                        alt="Hazelnut Chocolate">
+                    <p>Patisserie Dessert Truffles</p>
+                    <span>₹ 900</span>
+                </div>
+                <div class="chocolate-item">
+                    <img src="https://www.chocolate.lindt.com/media/wysiwyg/Lindor-milk-chocolate-340x340_3.jpg"
+                        alt="White Chocolate">
+                    <p>Red Chocolate</p>
+                    <span>₹ 1050</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Customer Reviews Section -->
+        <div id="reviews-section">
+            <h3>What Our Customers Say</h3>
+            <div class="reviews-container">
+                <div class="review-item">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"The best chocolate I’ve ever had! Perfectly delicious."</p>
+                    <div class="customer-info">
+                        <img src="https://static.vecteezy.com/system/resources/previews/002/002/403/non_2x/man-with-beard-avatar-character-isolated-icon-free-vector.jpg"
+                            alt="Customer 1">
+                        <span>John Doe</span>
+                    </div>
+                </div>
+
+                <div class="review-item">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Amazing flavors and fast delivery! Highly recommend!"</p>
+                    <div class="customer-info">
+                        <img src="https://img.freepik.com/premium-photo/profile-icon-white-background_941097-162627.jpg"
+                            alt="Customer 2">
+                        <span>Jane Smith</span>
+                    </div>
+                </div>
+
+                <div class="review-item">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Absolutely delightful! Will definitely order again."</p>
+                    <div class="customer-info">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEyXxOuVV4FVR9D9d2SA24czbfSJX9AsRyJQ&s"
+                            alt="Customer 3">
+                        <span>Sarah Lee</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="footer-container">
+                <!-- Contacts Section -->
+                <div class="footer-column">
+                    <h3>CONTACTS</h3>
+                    <p><i class="fas fa-phone"></i> 946-3482</p>
+                    <p><i class="fas fa-envelope"></i> BorcelleCake&Candy@.com</p>
+                </div>
+
+                <!-- Payments Accepted Section -->
+                <div class="footer-column">
+                    <h3>PAYMENTS ACCEPTED</h3>
+                    <div class="payment-icons">
+                        <img src="images/pngwing.com.png" alt="Visa">
+                        <img src="images/mastercard.png" alt="MasterCard">
+                    </div>
+                </div>
+
+                <!-- About Section -->
+                <div class="footer-column">
+                    <h3>ABOUT US</h3>
+                    <p>We are passionate about crafting the finest chocolates in the world since 1926.</p>
+                </div>
+
+
+
+                <!-- Connect with Us Section -->
+                <div class="footer-column">
+                    <h3>CONNECT WITH US</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+<!-- script tag for aos animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
